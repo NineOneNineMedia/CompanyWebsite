@@ -406,10 +406,6 @@ a:hover {
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0; }
 
-.logo {
-  margin-top: 10px;
-  display: inline-block; }
-
 .single-page-header {
   background-image: url("../images/about/about-header.jpg");
   background-size: cover;
@@ -465,34 +461,13 @@ a:hover {
 .navbar-toggle span {
   background: #fff; }
 
-.bg-1 {
-  background-image: url("../images/backgrounds/bg-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.bg-2 {
-  background-image: url("../images/backgrounds/bg-2.jpg");
-  background-repeat: no-repeat;
+.jumbotron {
+  background: url("/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
   background-size: cover;
-  background-attachment: fixed; }
+  background-position: center center;
+  height: 100vh; }
 
-.hero-area {
-  background-image: url("../images/slider/hero-area.jpg");
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-.hero-area:before {
-  content: "";
+.overlay {
   background: rgba(0, 0, 0, 0.63);
   position: absolute;
   top: 0;
@@ -980,14 +955,11 @@ a:hover {
     font-size: 25px; } }
 
 .copyright {
-  padding: 20px 0;
+  padding: 0;
   color: #fff; }
 
 .copyright img {
   margin-bottom: 15px; }
-
-.copyright p {
-  margin-top: 10px; }
 
 #scrollUp {
   border: 1px solid #4e595f;
