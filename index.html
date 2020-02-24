@@ -77,12 +77,12 @@ Welcome Slider
 ==================================== -->
 
     <section class="jumbotron jumbotron-fluid">
-      <div class="container-fluid">
+      <div class="container-fluid h-100">
         <div class="overlay"></div>
         <div class="row justify-content-center h-100">
-          <div class="col-md-10 align-items-center">
-            <h1 class="text-white">NineOneNine Media</h1>
-            <h5 class="text-white">
+          <div class="col-md-4 my-auto text-center">
+            <h1 class="head text-white">NineOneNine Media</h1>
+            <h5 class="sub-head text-white">
               We create awesome stuff with your goals in mind.
             </h5>
             <a data-scroll href="#services" class="btn btn-transparent"
@@ -96,7 +96,10 @@ Welcome Slider
     <!-- 
   Fixed Navigation
   ==================================== -->
-    <header id="navigation" class="navbar navigation text-white">
+    <header
+      id="navigation"
+      class="navbar navbar-expand-lg navigation text-white"
+    >
       <div class="container">
         <!-- logo -->
         <a class="navbar-brand logo" href="#body">
@@ -118,13 +121,17 @@ Welcome Slider
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          <div class="navbar-nav navbar-right">
+            <li><a class="nav-link" data-scroll href="#about">About Us</a></li>
+            <li>
+              <a class="nav-link" data-scroll href="#services">Services</a>
+            </li>
+            <li>
+              <a class="nav-link" data-scroll href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-link" data-scroll href="#contact-us">Contact</a>
+            </li>
           </div>
         </div>
         <!-- /main nav -->
