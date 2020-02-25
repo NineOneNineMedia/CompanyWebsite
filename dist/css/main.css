@@ -465,7 +465,7 @@ a:hover {
   background: #fff; }
 
 .jumbotron {
-  background: url("/images/header-image3.jpg");
+  background: url("images/header-image3.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -474,7 +474,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .jumbotron {
-    background: url("/images/header-image5.jpg");
+    background: url("images/header-image5.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
