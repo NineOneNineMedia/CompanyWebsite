@@ -609,7 +609,7 @@ Welcome Slider
                 <input
                   type="text"
                   placeholder="Your Name"
-                  class="form-control"
+                  class="form-control border-transparent"
                   name="name"
                   id="name"
                 />
@@ -652,6 +652,11 @@ Welcome Slider
               <div id="mail-fail" class="error">
                 Sorry, don't know what happened. Try later :(
               </div>
+
+              <div
+                class="g-recaptcha"
+                data-sitekey="6LdlP9wUAAAAAHGMvF0wdK5e99FBK1lqTiC27pW5"
+              ></div>
 
               <div id="cf-submit">
                 <input
@@ -757,6 +762,7 @@ Welcome Slider
     ></script>
     <!-- wow.min Script -->
     <script type="text/javascript" src="plugins/wow/dist/wow.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Custom js -->
     <script type="text/javascript" src="js/script.js"></script>
   </body>
