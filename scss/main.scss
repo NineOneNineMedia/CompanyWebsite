@@ -1,6 +1,5 @@
 /*=== MEDIA QUERY ===*/
-@import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
 html {
   background-color: #353b43;
   color: #737f8a;
@@ -8,7 +7,8 @@ html {
 
 body {
   background-color: #000000;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
 }
@@ -19,13 +19,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 500;
   color: #000000;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+.text-color {
+  color: #e3b04b;
 }
 
 /*=================================================================
@@ -467,7 +470,7 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -565,16 +568,28 @@ a:hover {
 }
 
 .jumbotron {
-  background: url("/images/header-image2.jpg");
-  background-size: cover;
-  background-position: center center;
+  background: url("/images/header-image3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
   height: 100vh;
   margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .jumbotron {
+    background: url("/images/header-image5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin-bottom: 0;
+  }
+}
+
 .overlay {
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0.2;
   position: absolute;
   top: 0;
   right: 0;
