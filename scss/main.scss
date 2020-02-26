@@ -31,6 +31,10 @@ p {
   color: #e3b04b;
 }
 
+.g-recaptcha {
+  text-align: center;
+}
+
 /*=================================================================
   Basic Setup
 ==================================================================*/
@@ -583,7 +587,7 @@ a:hover {
 }
 
 .jumbotron {
-  background: url("/Users/Mxnunley1/mxnDevelopment/clientProjects/NineOneNine-Development/images/header-image3.jpg");
+  background-image: url("../images/header-image3.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -593,7 +597,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .jumbotron {
-    background: url("/Users/Mxnunley1/mxnDevelopment/clientProjects/NineOneNine-Development/images/header-image5.jpg");
+    background-image: url("../images/header-image5.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
