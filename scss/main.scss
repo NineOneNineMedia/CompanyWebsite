@@ -558,17 +558,32 @@ a:hover {
   color: #e3b04b;
 }
 
-.navbar-toggle {
+.navbar-toggler {
   border: 1px solid #fff;
+  color: white;
   border-radius: 0;
 }
 
-.navbar-toggle span {
-  background: #fff;
+.navbar-toggler span {
+  color: black;
+}
+.navbar-toggler-icon span {
+  color: black;
+}
+
+.custom-toggler.navbar-toggler {
+  outline: none;
+  border-color: white;
+  text-decoration: none;
+}
+.custom-toggler .navbar-toggler-icon {
+  outline: none;
+  color: white;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .jumbotron {
-  background: url("images/header-image3.jpg");
+  background: url("/Users/Mxnunley1/mxnDevelopment/clientProjects/NineOneNine-Development/images/header-image3.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -578,7 +593,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .jumbotron {
-    background: url("images/header-image5.jpg");
+    background: url("/Users/Mxnunley1/mxnDevelopment/clientProjects/NineOneNine-Development/images/header-image5.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
