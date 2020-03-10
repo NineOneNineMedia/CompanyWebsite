@@ -565,15 +565,14 @@ Welcome Slider
 
           <!-- Contact Form -->
           <div class="col-md-6 contact-form wow fadeInUp">
-            <form method="post" id="reused_form">
+            <form action="https://formspree.io/mlenqpay" method="POST">
               <div class="form-group">
                 <input
                   class="form-control"
                   id="name"
                   type="text"
-                  name="Name"
+                  name="name"
                   placeholder="Your Name"
-                  required
                   maxlength="70"
                 />
               </div>
@@ -582,33 +581,28 @@ Welcome Slider
                   class="form-control"
                   id="email"
                   type="email"
-                  name="Email"
+                  name="_replyto"
                   placeholder="Email Address"
-                  required
                   maxlength="70"
                 />
               </div>
               <div class="form-group">
                 <textarea
                   class="form-control"
+                  type="text"
                   id="message"
                   name="Message"
                   placeholder="Enter Message"
                   rows="5"
                   maxlength="6000"
-                  required
                 ></textarea>
               </div>
-              <div
-                class="g-recaptcha"
-                data-sitekey="6LefP9wUAAAAAKCuMokc0xG7G8O4oAP7MMkShtrQ"
-              ></div>
               <div id="cf-submit" class="pt-3">
                 <input
                   type="submit"
                   id="contact-submit"
                   class="btn btn-transparent"
-                  value="Submit"
+                  value="Send"
                 />
               </div>
             </form>
