@@ -23,16 +23,16 @@ h6 {
   color: #000000;
 }
 
+li {
+  color: white;
+}
+
 p {
   font-family: "Oswald", sans-serif;
 }
 
 .text-color {
   color: #e3b04b;
-}
-
-.g-recaptcha {
-  text-align: center;
 }
 
 /*=================================================================
@@ -260,7 +260,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #000;
   color: #fff;
 }
 
@@ -878,7 +878,7 @@ a:hover {
 }
 
 .contact-form .form-control {
-  color: #707070;
+  color: white;
   background-color: rgba($color: #000000, $alpha: 1);
   height: 45px;
 }
@@ -891,7 +891,7 @@ a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border: 1px solid #e3b04b;
+  background: #000;
 }
 
 #contact-submit {

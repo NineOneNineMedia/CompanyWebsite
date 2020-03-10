@@ -20,14 +20,14 @@ h6 {
   font-weight: 500;
   color: #000000; }
 
+li {
+  color: white; }
+
 p {
   font-family: "Oswald", sans-serif; }
 
 .text-color {
   color: #e3b04b; }
-
-.g-recaptcha {
-  text-align: center; }
 
 /*=================================================================
   Basic Setup
@@ -215,7 +215,7 @@ a:hover {
   text-transform: uppercase; }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #000;
   color: #fff; }
 
 .mt-20 {
@@ -724,7 +724,7 @@ a:hover {
   color: #000000; }
 
 .contact-form .form-control {
-  color: #707070;
+  color: white;
   background-color: black;
   height: 45px; }
 
@@ -735,7 +735,7 @@ a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border: 1px solid #e3b04b; }
+  background: #000; }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
